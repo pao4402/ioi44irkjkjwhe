@@ -1,0 +1,52 @@
+/* este apartado es para colocarle un fondo a todo el cuerpo del html  */
+body {
+    background-color: beige);
+}
+
+/* este apartado es para editar el titulo principal, ponerle el tipo de letra y el tamaño el color  */
+h1 { 
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;  
+    font-size: large;
+    color: rgb(26, 26, 88);
+}
+
+/* este apartado es para editar la foto, ponerle el tamaño y en que ubicacion la necesitamos  */
+img{
+    height: 250px;
+    width: 200px;
+    margin-left: 650px;
+    margin-right: 150px;
+}
+
+/* este apartado es para editar el nuestro formulario para cambiarle el color de letra, tamaño le tra y tipo de letra  */
+
+form {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif,; /* es para poner el tipo de letra*/
+    font-size: medium; /* es para ponerde el tamaño de la letra  */
+}
+
+/* este apartado es para editar el tipo margen que le agregamos a el formulario, centrarlo el tamaño de los margenes y el color de fondo  */
+div {
+    border: 3px solid black;
+    margin-left: 450px;
+    margin-right: 450px; /* es para colocar los margenes  */
+    margin-top: 60px;
+    text-align: center; /* es para centrar todo el texto */
+    justify-content: center; /* es para jsutificar el texto */
+    width: 600px; /* es para ponerde el ancho del borde */
+    height: 150px; /* es para ponerde el largo del borde */
+    padding-bottom: 50px;  /* es para ponerde los margenes */
+    background-color: rgba(244, 240, 240, 0.155);
+}
+
+/* este apartado es para editar el tipo margen que le agregamos toda la pagina, centrarlo el tamaño de los margenes y el color de fondo  */
+fieldset {
+    border: 3px solid; /* es para ponerde el tamaño del borde */
+    width: 300px;  /* es para ponerde el ancho del borde */
+    height: 600px; /* es para ponerde el largo del borde */
+    background-color: rgba(87, 21, 111, 0.035);
+    
+}
+
